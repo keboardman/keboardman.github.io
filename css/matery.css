@@ -2016,6 +2016,8 @@ footer .copy-right {
     /* max-height = line-height (1.2) * lines max number (3) */
     max-height: 4.5em;
     /* fix problem when last visible word doesn't adjoin right side  */
+    min-height: 4.5em;
+    /* fix problem when last visible word doesn't adjoin right side  */
     text-align: justify;
     /* place for '...' */
     margin-right: -1em;
