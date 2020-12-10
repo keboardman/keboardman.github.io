@@ -31,6 +31,33 @@
     
     
     <entry>
+      <title>排序算法</title>
+      <link href="2019/10/10/post-1/"/>
+      <url>2019/10/10/post-1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><p><strong>算法描述</strong>:<br>比较相邻的元素。如果第一个比第二个大，就交换它们两个；<br>对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对，这样在最后的元素应该会是最大的数；<br>针对所有的元素重复以上的步骤，除了最后一个；<br>重复步骤1~3，直到排序完成。</p><p><strong>动图演示</strong>:<br><img src="https://raw.githubusercontent.com/keboardman/blog-img/master/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/%E5%86%92%E6%B3%A1.gif?token=AKGC4VRBRVOADRONCS6EK4K72ISEI" ></p><p><strong>代码演示</strong>:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">function bubbleSort(arr) &#123;</span><br><span class="line">    varlen &#x3D; arr.length;</span><br><span class="line">    for(vari &#x3D; 0; i &lt; len - 1; i++) &#123;</span><br><span class="line">        for(varj &#x3D; 0; j &lt; len - 1 - i; j++) &#123;</span><br><span class="line">            if(arr[j] &gt; arr[j+1]) &#123;        &#x2F;&#x2F; 相邻元素两两对比</span><br><span class="line">                vartemp &#x3D; arr[j+1];        &#x2F;&#x2F; 元素交换</span><br><span class="line">                arr[j+1] &#x3D; arr[j];</span><br><span class="line">                arr[j] &#x3D; temp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    returnarr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> -算法比较 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 排序 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客开源</title>
       <link href="2019/08/27/Blog-Open-Source/"/>
       <url>2019/08/27/Blog-Open-Source/</url>
